@@ -29,5 +29,4 @@ const RepeatPasswordInput: React.FC<RepeatPasswordInputProps> = ({
     </div>
   );
 };
-
 export default RepeatPasswordInput;
