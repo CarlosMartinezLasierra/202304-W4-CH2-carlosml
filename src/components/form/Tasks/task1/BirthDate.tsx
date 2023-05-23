@@ -12,7 +12,6 @@ const BirthDateInput: React.FC<BirthDateInputProps> = ({ onChange }) => {
     const inputDate = e.target.value;
     setBirthDate(inputDate);
 
-    // Calculate age based on birthDate
     const today = new Date();
     const birthDateValue = new Date(inputDate);
     const ageDiff = today.getFullYear() - birthDateValue.getFullYear();
